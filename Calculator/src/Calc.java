@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.UIManager;
@@ -121,6 +122,7 @@ class Calc extends JFrame {
         _displayField.setText("0");
         _previousOp  = "=";
         _logic.setTotal("0");
+        JOptionPane.showMessageDialog(null,"CalcClear","Clear",JOptionPane.WARNING_MESSAGE);
     }
     
     //////////////////////////////////////////// inner listener class OpListener
