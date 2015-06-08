@@ -122,7 +122,7 @@ class Calc extends JFrame {
         _displayField.setText("0");
         _previousOp  = "=";
         _logic.setTotal("0");
-        JOptionPane.showMessageDialog(null,"CalcClear","Clear",JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(null,"You clicked on Clear :-)","Clear",JOptionPane.WARNING_MESSAGE);
     }
     
     //////////////////////////////////////////// inner listener class OpListener
